@@ -17,7 +17,7 @@
       "svg": "{<svg></svg>}",
       "svg:info": "{<svg role='img' aria-label=''></svg>}",
       "svg:deco": "{<svg aria-hidden='true'></svg>}",
-      "figure": "figure[role='group|figure'][aria-label='[texte figcaption']>img[src=''][alt='label-image']+{<figcaption>[label-image] Légende</figcaption>"
+      "figure": "figure[role='figure'][aria-label='[texte figcaption']>img[src=''][alt='label-image']+{<figcaption>[label-image] Légende</figcaption>"
     }
   }
 }
