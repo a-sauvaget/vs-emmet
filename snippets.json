@@ -1,0 +1,24 @@
+{
+  "html": {
+    "snippets": {
+      "!": "{<!DOCTYPE html>}>html[lang='${lang}']>(head>meta[charset='${charset}']+meta[http-equiv='X-UA-Compatible'][content='IE=edge']+meta[name='viewport'][content='width=device-width,initial-scale=1.0']+link:css+title>{${title}${1}})+body",
+      "header": "header[role='banner']",
+      "main": "main[id='main'][role='main'][tabindex='-1']",
+      "footer": "footer[role='contentinfo']",
+      "nav": "nav[role='navigation']",
+      "form" : "form[role='form'][action='']",
+      "form:get" : "form[role='form'][action=''][method='get']",
+      "form:post" : "form[role='form'][action=''][method='post']",
+      "a:skip": "nav[role='navigation'][aria-label='Accès rapide']>{<a class='skiplink' href='#main'>Contenu principal</a>}",
+      "table:mef": "table[role='presentation']",
+      "table:simple" : "table>caption+(tr>th[scope='col'])+(tr>td)",
+      "table:complexe" : "table>(caption>span.sr-only)+(tr>td[aria-hidden='true']+th[id='entete1'][colspan='2'])+(tr>td[aria-hidden='true']+th[id='entete2'])+(tr>td+td[headers='entete1 entete2'])",
+      "time": "time[datetime='']",
+      "svg": "{<svg></svg>}",
+      "svg:info": "{<svg role='img' aria-label=''></svg>}",
+      "svg:deco": "{<svg aria-hidden='true'></svg>}",
+      "figure": "figure[role='group|figure'][aria-label='[texte figcaption']>img[src=''][alt='label-image']+{<figcaption>[label-image] Légende</figcaption>"
+    }
+  }
+}
+
