@@ -15,6 +15,10 @@ Collection de snippets pour Emmet. La plupart surchargent [les snippets par déf
 - table:simple: permet de créer un tableau simple
 - table:complexe: permet de créer un tableau complexe
 
+Pour rappel:
+- les balise `<header>` `<nav>` `<main>` et `<footer>` sont obligatoires sur une page.
+- `<main>` est unique dans la page.
+- `<nav>` est réservé aux zones de navigation. De plus, le bouton burger ou autre doit être inclus dans l'élément `<nav>`.
 
 ## Autre
 - !: changement de la langue pour fr-FR et ajout du lien vers feuille de style
